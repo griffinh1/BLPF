@@ -44,6 +44,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blpf_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Rhr-vF-Tfq">
+                                        <rect key="frame" x="315" y="564" width="204" height="66"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3b-iK-uD9">
                                         <rect key="frame" x="484" y="437" width="297" height="245"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -62,29 +66,25 @@
                                             <color key="titleColor" red="0.01176470588" green="0.1137254902" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                     </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="crossfit_logo" translatesAutoresizingMaskIntoConstraints="NO" id="600-6z-pMs">
+                                        <rect key="frame" x="351" y="555" width="132" height="83"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dt2020_logo" translatesAutoresizingMaskIntoConstraints="NO" id="RAb-gL-0Ip">
+                                        <rect key="frame" x="319" y="556" width="195" height="81"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYR-Wy-waX">
+                                        <rect key="frame" x="-5" y="562" width="844" height="69"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0201646667" green="0.16055196520000001" blue="0.54513394829999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="crossfit_logo" translatesAutoresizingMaskIntoConstraints="NO" id="600-6z-pMs">
-                                <rect key="frame" x="483" y="10" width="132" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dt2020_logo" translatesAutoresizingMaskIntoConstraints="NO" id="RAb-gL-0Ip">
-                                <rect key="frame" x="295" y="11" width="195" height="81"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blpf_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Rhr-vF-Tfq">
-                                <rect key="frame" x="144" y="18" width="204" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYR-Wy-waX">
-                                <rect key="frame" x="0.0" y="92" width="844" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0201646667" green="0.16055196520000001" blue="0.54513394829999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CZo-8h-85b">
                                 <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -127,6 +127,13 @@
                                             <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         </state>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nb3-Nh-z2n">
+                                        <rect key="frame" x="150" y="291" width="97" height="58"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                        <color key="textColor" red="0.01176470588" green="0.1137254902" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTV-fo-I3i">
                                         <rect key="frame" x="150" y="381" width="97" height="58"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -143,6 +150,13 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BF%:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Xp-ce-A4Q">
                                         <rect key="frame" x="150" y="560" width="97" height="58"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
+                                        <color key="textColor" red="0.01176470588" green="0.1137254902" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12345" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Acs-Y8-y5L">
+                                        <rect key="frame" x="329" y="279" width="282" height="82"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
                                         <color key="textColor" red="0.01176470588" green="0.1137254902" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -169,34 +183,16 @@
                                         <color key="textColor" red="0.01176470588" green="0.1137254902" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nb3-Nh-z2n">
-                                        <rect key="frame" x="150" y="291" width="97" height="58"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
-                                        <color key="textColor" red="0.01176470588" green="0.1137254902" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12345" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Acs-Y8-y5L">
-                                        <rect key="frame" x="329" y="279" width="282" height="82"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
-                                        <color key="textColor" red="0.01176470588" green="0.1137254902" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oQa-xh-qfm">
                                         <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blpf_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Nvl-W6-lke">
-                                                <rect key="frame" x="149" y="16" width="204" height="66"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dt2020_logo" translatesAutoresizingMaskIntoConstraints="NO" id="f9d-zj-XGf">
-                                                <rect key="frame" x="309" y="14" width="195" height="81"/>
+                                                <rect key="frame" x="309" y="16" width="195" height="81"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCl-uu-X9l">
-                                                <rect key="frame" x="-10" y="95" width="844" height="69"/>
+                                                <rect key="frame" x="-10" y="124" width="844" height="69"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0201646667" green="0.16055196520000001" blue="0.54513394829999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -204,7 +200,11 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="crossfit_logo" translatesAutoresizingMaskIntoConstraints="NO" id="5pU-rS-m7H">
-                                                <rect key="frame" x="512" y="8" width="132" height="83"/>
+                                                <rect key="frame" x="512" y="16" width="132" height="83"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blpf_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Nvl-W6-lke">
+                                                <rect key="frame" x="149" y="24" width="204" height="66"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
@@ -217,6 +217,29 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="bfLbl" destination="1Xp-ce-A4Q" id="qR6-5R-o9k"/>
+                        <outlet property="blpfLogo" destination="2r1-fr-DtE" id="3My-4J-SXU"/>
+                        <outlet property="blueBar" destination="ETe-Ze-gEx" id="8Up-6R-f98"/>
+                        <outlet property="crossfitLogo" destination="PA8-nv-IBk" id="Ely-FQ-BZz"/>
+                        <outlet property="dtLogo" destination="3ly-Qk-wZ5" id="pvt-Ph-MpW"/>
+                        <outlet property="enterBtn" destination="iTO-c2-QoF" id="l44-YG-E3h"/>
+                        <outlet property="historyScreen" destination="oQa-xh-qfm" id="1mX-1M-YSP"/>
+                        <outlet property="homeBtn" destination="TWd-dK-HBu" id="bG9-tA-fP8"/>
+                        <outlet property="homeScreen" destination="3g3-Ed-84j" id="lAW-KN-Rzj"/>
+                        <outlet property="idLbl" destination="Nb3-Nh-z2n" id="e5j-ue-2ul"/>
+                        <outlet property="initialScreen" destination="8bC-Xf-vdC" id="cGx-1w-RF7"/>
+                        <outlet property="nameLbl" destination="aTV-fo-I3i" id="Oyz-Sv-Jwv"/>
+                        <outlet property="search" destination="yda-My-UKM" id="Cpx-gw-dcG"/>
+                        <outlet property="tempBF" destination="QL7-lA-YeT" id="LB5-nc-drc"/>
+                        <outlet property="tempID" destination="Acs-Y8-y5L" id="jKx-9F-C7Y"/>
+                        <outlet property="tempName" destination="NOD-vl-rIF" id="PXG-DK-gDV"/>
+                        <outlet property="tempWeight" destination="9JV-bm-AN6" id="jBW-jA-vWL"/>
+                        <outlet property="viewBtn" destination="y3f-up-vgK" id="vvQ-BI-E15"/>
+                        <outlet property="weighBtn" destination="e3b-iK-uD9" id="xor-1c-9e3"/>
+                        <outlet property="weightLbl" destination="pMc-gv-aYl" id="jFy-25-sfd"/>
+                        <outlet property="weightScreen" destination="CZo-8h-85b" id="ad2-26-JJM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
