@@ -54,7 +54,7 @@
                                 <rect key="frame" x="0.0" y="187" width="834" height="1007"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3b-iK-uD9">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e3b-iK-uD9" userLabel="Weight Btn">
                                         <rect key="frame" x="484" y="437" width="297" height="245"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -63,7 +63,8 @@
                                             <color key="titleColor" red="0.01176470588" green="0.1137254902" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <action selector="weightBntPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z31-Tw-rEP"/>
+                                            <action selector="searchBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mal-Y1-dgb"/>
+                                            <action selector="weightBntPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qHr-ka-eWd"/>
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3f-up-vgK">
@@ -102,6 +103,9 @@
                                         <state key="normal" title="Home">
                                             <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="homeBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cAn-B0-SzN"/>
+                                        </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nb3-Nh-z2n">
                                         <rect key="frame" x="150" y="291" width="97" height="58"/>
@@ -131,37 +135,45 @@
                                         <color key="textColor" red="0.01176470588" green="0.1137254902" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12345" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Acs-Y8-y5L">
-                                        <rect key="frame" x="329" y="279" width="282" height="82"/>
+                                    <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b4X-A8-Bpd">
+                                        <rect key="frame" x="325" y="303" width="185" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
-                                        <color key="textColor" red="0.01176470588" green="0.1137254902" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Robert Griffin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOD-vl-rIF">
-                                        <rect key="frame" x="329" y="369" width="282" height="82"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U8X-MR-jNt">
+                                        <rect key="frame" x="325" y="393" width="185" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
-                                        <color key="textColor" red="0.01176470588" green="0.1137254902" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="180" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JV-bm-AN6">
-                                        <rect key="frame" x="329" y="463" width="282" height="82"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d3F-NC-zOd" userLabel="Weight Field">
+                                        <rect key="frame" x="325" y="487" width="185" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
-                                        <color key="textColor" red="0.01176470588" green="0.1137254902" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="17" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QL7-lA-YeT">
-                                        <rect key="frame" x="329" y="548" width="282" height="82"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vw6-9W-5v6" userLabel="Bf Field">
+                                        <rect key="frame" x="325" y="572" width="185" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="30"/>
-                                        <color key="textColor" red="0.01176470588" green="0.1137254902" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oQa-xh-qfm">
-                                        <rect key="frame" x="0.0" y="0.0" width="834" height="1003"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lGu-L8-6lF">
+                                        <rect key="frame" x="0.0" y="0.0" width="834" height="1007"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tE-JC-eAh">
+                                                <rect key="frame" x="323" y="775" width="225" height="112"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="38"/>
+                                                <state key="normal" title="Home"/>
+                                                <connections>
+                                                    <action selector="hHomeBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xlK-GV-Lzu"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
                                 </subviews>
@@ -172,28 +184,27 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="bfField" destination="Vw6-9W-5v6" id="Ulc-A0-eMK"/>
                         <outlet property="bfLbl" destination="1Xp-ce-A4Q" id="qR6-5R-o9k"/>
                         <outlet property="blpfLogo" destination="2r1-fr-DtE" id="3My-4J-SXU"/>
                         <outlet property="blueBar" destination="ETe-Ze-gEx" id="8Up-6R-f98"/>
                         <outlet property="crossfitLogo" destination="PA8-nv-IBk" id="Ely-FQ-BZz"/>
                         <outlet property="dtLogo" destination="3ly-Qk-wZ5" id="pvt-Ph-MpW"/>
                         <outlet property="enterBtn" destination="iTO-c2-QoF" id="l44-YG-E3h"/>
-                        <outlet property="historyScreen" destination="oQa-xh-qfm" id="1mX-1M-YSP"/>
+                        <outlet property="hHomeBtn" destination="4tE-JC-eAh" id="AE5-i1-lgM"/>
+                        <outlet property="historyScreen" destination="lGu-L8-6lF" id="z3p-6b-pDo"/>
                         <outlet property="homeBtn" destination="TWd-dK-HBu" id="bG9-tA-fP8"/>
                         <outlet property="homeScreen" destination="3g3-Ed-84j" id="lAW-KN-Rzj"/>
+                        <outlet property="idField" destination="b4X-A8-Bpd" id="hCs-BM-frv"/>
                         <outlet property="idLbl" destination="Nb3-Nh-z2n" id="e5j-ue-2ul"/>
                         <outlet property="initialScreen" destination="8bC-Xf-vdC" id="71j-6z-L8x"/>
+                        <outlet property="nameField" destination="U8X-MR-jNt" id="lV7-uq-8Hn"/>
                         <outlet property="nameLbl" destination="aTV-fo-I3i" id="Oyz-Sv-Jwv"/>
                         <outlet property="search" destination="yda-My-UKM" id="Cpx-gw-dcG"/>
                         <outlet property="searchBtn" destination="MqV-zD-Iqe" id="qkB-JF-X6Z"/>
-                        <outlet property="tempBF" destination="QL7-lA-YeT" id="LB5-nc-drc"/>
-                        <outlet property="tempBf" destination="QL7-lA-YeT" id="S0N-1n-mmN"/>
-                        <outlet property="tempID" destination="Acs-Y8-y5L" id="jKx-9F-C7Y"/>
-                        <outlet property="tempId" destination="Acs-Y8-y5L" id="dud-v3-YNg"/>
-                        <outlet property="tempName" destination="NOD-vl-rIF" id="PXG-DK-gDV"/>
-                        <outlet property="tempWeight" destination="9JV-bm-AN6" id="jBW-jA-vWL"/>
                         <outlet property="viewBtn" destination="y3f-up-vgK" id="vvQ-BI-E15"/>
-                        <outlet property="weighBtn" destination="e3b-iK-uD9" id="xor-1c-9e3"/>
+                        <outlet property="weightBtn" destination="e3b-iK-uD9" id="lPP-sh-L4i"/>
+                        <outlet property="weightField" destination="d3F-NC-zOd" id="UCB-0p-2sh"/>
                         <outlet property="weightLbl" destination="pMc-gv-aYl" id="jFy-25-sfd"/>
                         <outlet property="weightScreen" destination="CZo-8h-85b" id="ad2-26-JJM"/>
                     </connections>

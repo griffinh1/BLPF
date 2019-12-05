@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var blpfLogo: UIImageView!
     @IBOutlet weak var blueBar: UILabel!
     @IBOutlet weak var homeScreen: UIView!
-    @IBOutlet weak var weighBtn: UIButton!
+    @IBOutlet weak var weightBtn: UIButton!
     @IBOutlet weak var viewBtn: UIButton!
     @IBOutlet weak var enterBtn: UIButton!
     @IBOutlet weak var homeBtn: UIButton!
@@ -26,13 +26,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var weightLbl: UILabel!
     @IBOutlet weak var idLbl: UILabel!
     @IBOutlet weak var bfLbl: UILabel!
-    @IBOutlet weak var tempId: UILabel!
-    @IBOutlet weak var tempName: UILabel!
-    @IBOutlet weak var tempWeight: UILabel!
-    @IBOutlet weak var tempBf: UILabel!
+    @IBOutlet weak var idField: UITextField!
+    @IBOutlet weak var nameField: UITextField!
+    @IBOutlet weak var weightField: UITextField!
+    @IBOutlet weak var bfField: UITextField!
     @IBOutlet weak var historyScreen: UIView!
     @IBOutlet weak var weightScreen: UIView!
     @IBOutlet weak var searchBtn: UIButton!
+    @IBOutlet weak var hHomeBtn: UIButton!
     
     
     
@@ -44,29 +45,54 @@ class ViewController: UIViewController {
         searchBtn.isHidden = true
         search.isHidden = true
         homeScreen.isHidden = false
-        weighBtn.isHidden = false
+        weightBtn.isHidden = false
         viewBtn.isHidden = false
     }
     @IBAction func weightBntPressed(_ sender: Any) {
-        weighBtn.isHidden = true
+        weightBtn.isHidden = true
         viewBtn.isHidden = true
-        weightScreen.isHidden = false;
-        enterBtn.isHidden = false;
-        homeBtn.isHidden = false;
-        idLbl.isHidden = false;
-        nameLbl.isHidden = false;
-        weightLbl.isHidden = false;
-        bfLbl.isHidden = false;
-        tempId.isHidden = false;
-        tempName.isHidden = false;
-        tempWeight.isHidden = false;
-        tempBf.isHidden = false;
+        weightScreen.isHidden = false
+        enterBtn.isHidden = false
+        homeBtn.isHidden = false
+        idLbl.isHidden = false
+        nameLbl.isHidden = false
+        weightLbl.isHidden = false
+        bfLbl.isHidden = false
+        idField.isHidden = false
+        nameField.isHidden = false
+        weightField.isHidden = false
+        bfField.isHidden = false
     }
     @IBAction func viewBtnPressed(_ sender: Any) {
-        weighBtn.isHidden = true
+        historyScreen.isHidden = false
+        hHomeBtn.isHidden = false
+        weightBtn.isHidden = true
         viewBtn.isHidden = true
-        historyScreen.isHidden = false;
+        homeScreen.isHidden = true
     }
-
+    @IBAction func homeBtnPressed(_ sender: Any) {
+        weightScreen.isHidden = true
+        enterBtn.isHidden = true
+        homeBtn.isHidden = true
+        idLbl.isHidden = true
+        nameLbl.isHidden = true
+        weightLbl.isHidden = true
+        bfLbl.isHidden = true
+        idField.isHidden = true
+        nameField.isHidden = true
+        weightField.isHidden = true
+        bfField.isHidden = true
+        homeScreen.isHidden = false
+        weightBtn.isHidden = false
+        viewBtn.isHidden = false
+    }
+    @IBAction func hHomeBtnPressed(_ sender: Any) {
+        historyScreen.isHidden = true
+        hHomeBtn.isHidden = true
+        homeScreen.isHidden = false
+        weightBtn.isHidden = false
+        viewBtn.isHidden = false
+    }
+    
 }
 

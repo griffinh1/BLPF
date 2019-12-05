@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8336E9C3239894B8007C6A68 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8336E9C2239894B8007C6A68 /* data.txt */; };
 		8377BE3923959F58007ABD99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377BE3823959F58007ABD99 /* AppDelegate.swift */; };
 		8377BE3B23959F58007ABD99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377BE3A23959F58007ABD99 /* SceneDelegate.swift */; };
 		8377BE3D23959F58007ABD99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8377BE3C23959F58007ABD99 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8336E9C2239894B8007C6A68 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 		8377BE3523959F58007ABD99 /* BLPF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLPF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8377BE3823959F58007ABD99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8377BE3A23959F58007ABD99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		8377BE3723959F58007ABD99 /* BLPF */ = {
 			isa = PBXGroup;
 			children = (
+				8336E9C2239894B8007C6A68 /* data.txt */,
 				8377BE3823959F58007ABD99 /* AppDelegate.swift */,
 				8377BE3A23959F58007ABD99 /* SceneDelegate.swift */,
 				8377BE3C23959F58007ABD99 /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8336E9C3239894B8007C6A68 /* data.txt in Resources */,
 				8377BE4523959F59007ABD99 /* LaunchScreen.storyboard in Resources */,
 				8377BE4223959F59007ABD99 /* Assets.xcassets in Resources */,
 				8377BE4023959F58007ABD99 /* Main.storyboard in Resources */,
